@@ -8,20 +8,19 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', sans-serif;
             background: #0f172a;
-            color: white;
+            color: #fff;
         }
 
         header {
             text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(135deg, #1e293b, #0f172a);
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1e293b, #020617);
         }
 
         header h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
+            font-size: 45px;
         }
 
         header p {
@@ -29,16 +28,35 @@
             font-size: 18px;
         }
 
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #38bdf8;
+            color: black;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
         section {
-            padding: 40px 20px;
-            max-width: 900px;
+            padding: 50px 20px;
+            max-width: 1000px;
             margin: auto;
         }
 
         h2 {
             border-bottom: 2px solid #38bdf8;
             padding-bottom: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #1e293b;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 8px;
         }
 
         .projects {
@@ -55,7 +73,7 @@
         }
 
         .card:hover {
-            transform: scale(1.05);
+            transform: translateY(-8px);
             background: #334155;
         }
 
@@ -70,40 +88,49 @@
             color: #38bdf8;
             text-decoration: none;
         }
-
-        a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Hi, I'm Meer 👋</h1>
+    <h1>Hi, I'm Meer Abdullah 👋</h1>
     <p>Python Developer | AI Enthusiast</p>
+    <a href="mailto:mirabdulahh@gmail.com" class="btn">Hire Me</a>
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-        I am a passionate learner focused on Python development and Artificial Intelligence.
-        I enjoy building practical projects that solve real-world problems and improve my skills.
+        I am a passionate Python developer and AI enthusiast focused on building real-world projects.
+        I enjoy solving problems and continuously learning new technologies to improve my skills.
+        My goal is to become a professional AI developer and work on impactful solutions.
     </p>
 </section>
 
 <section>
-    <h2>My Projects</h2>
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>AI Basics</span>
+        <span>Problem Solving</span>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
     <div class="projects">
 
         <div class="card">
             <h3>Password Manager 🔐</h3>
-            <p>A secure app to store and manage passwords.</p>
+            <p>A secure Python app to store and manage passwords safely.</p>
         </div>
 
         <div class="card">
             <h3>Calculator App 🧮</h3>
-            <p>A simple and fast calculator built using Python.</p>
+            <p>A fast and simple calculator built using Python.</p>
         </div>
 
         <div class="card">
@@ -120,7 +147,7 @@
 </section>
 
 <footer>
-    <p>© 2026 Meer Abdullah | All Rights Reserved</p>
+    <p>© 2026 Meer Abdullah | Portfolio</p>
 </footer>
 
 </body>
